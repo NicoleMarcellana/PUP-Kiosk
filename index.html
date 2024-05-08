@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+    <link rel="icon" href="css/logo.png" type="image/x-icon">
+    <title>PUP Kiosk</title>
+</head>
+<body id="contents">
+    <div class="header"></div>
+    <div class="image-container">
+            <img src = "css/logo.png" class = "PUPLogo">
+
+    </div>
+        <p class = "PUP"> POLYTECHNIC UNIVERSITY OF THE PHILIPPINES<br>
+            THE COUNTRY'S FIRST POLYTECHNICU </p> 
+            <div class="sidenav">
+                <h1>PUP Kiosk</h1>
+                <ol>
+                    <li>PUP Pylon</li>
+                    <li>Main Gate and Mural Brass Sculpture</li>
+                    <li>Guard House</li>
+                    <li>West Gate</li>
+                    <li>Visitor Information Center</li>
+                    <li>Gazebo</li>
+                    <li>Catwalk</li>
+                    <li>Tennis Court</li>
+                    <li>Outdoor Court</li>
+                    <li>Gymnasium and Sports Center</li>
+                    <li>Swimming Pool</li>
+                    <li>Tahanan ng Alumni</li>
+                    <li>Physical Education Building</li>
+                    <li>Mabini Monument and PUP Obelisk</li>
+                    <li>Freedom Park</li>
+                    <li>Flag Pole</li>
+                    <li>Apolinario Mabini Shrine</li>
+                    <li>Grandstand</li>
+                    <li>Track and Football Oval</li>
+                    <li>Centennial Monument</li>
+                    <li>Lagoon</li>
+                    <li>Ampitheater</li>
+                    <li>Ninoy Aquino Library and Learning Resource Center</li>
+                    <li>R.C. Overhead Tank</li>
+                    <li>Laboratory High School</li>
+                    <li>Charlie Del Rosario Hall</li>
+                    <li>Student Canteen</li>
+                    <li>University Canteen and Sampaguita Building</li>
+                    <li>Dome</li>
+                    <li>West Wing</li>
+                    <li>North Wing</li>
+                    <li>East Wing</li>
+                    <li>South Wing</li>
+                    <li>Interfaith Chapel</li>
+                    <li>Community Building (Gabriela Silang)</li>
+                    <li>Nutrition and Food Science Building</li>
+                    <li>Campus Development and Maintenance Building</li>
+                    <li>PUP Sta. Mesa Ferry Station</li>
+                    <li>Printing Press Building</li>
+                    <li>Property Building</li>
+                    <li>Linear Park</li>
+                    <li>Pasig River</li>
+                </ol>
+            </div>
+        
+    <main>
+        <img src="css/PUP Map.png" alt="PUP Sta. Mesa Main Campus Map" usemap="#pupstamesacampus"  class="map-nav"/>
+
+        <map name="pupstamesacampus">
+            <area shape="poly" coords="795,189,814,188,815,209,796,210" alt="PUP Pylon" href="#" 
+            onmouseover = "placeInfo('css/images/Pylon.jpg','PUP Pylon', 'Since 1987, the Pylon came to symbolized truth, excellence and wisdom.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="795,213,813,211,818,228,796,230" alt="Main Gate" href="#" 
+            onmouseover = "placeInfo('css/images/MainGate.jpg','Main Gate and Mural Brass Sculpture', 'The main gate of the university. On its wall, a brass mural is placed which sybolizes the purposeful growth of the Filipino youth.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="rect" coords="783,235,793,245" alt="Guard House" href="#" 
+            onmouseover = "placeInfo('css/images/GuardHouse.png','Guard House', 'Ensuring the safety of students and staff. Manned by dedicated personnel, it serves as the first line of defense, safeguarding the campus.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="753,174,777,175,777,199,751,198" alt="Visitor Information Center" href="#" 
+            onmouseover = "placeInfo('css/images/VisitorCenter.png','Visitor Information Center', 'Where guests receive helpful guidance about the facilities and events of school.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="609,236,623,236,625,246,609,249" alt="Gazebo" href="#" 
+            onmouseover = "placeInfo('css/images/Gazebo.jpg','Gazebo', 'Great hangout place beside the PUP Souvenir Shop where official souvenirs are sold.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="568,193,743,199,743,207,570,201" alt="Catwalk" href="#" 
+            onmouseover = "placeInfo('css/images/Catwalk.png','Catwalk', 'They usually say that this is like a fashion runway.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="645,120,640,187,719,192,723,127" alt="Tennis Court" href="#" 
+            onmouseover = "placeInfo('css/images/TennisCourt.jpg','Tennis Court', 'Students go here to practice their skills in tennis.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="556,114,551,168,635,173,637,120" alt="Outdoor Court" href="#" 
+            onmouseover = "placeInfo('css/images/OutdoorCourt.jpg','Outdoor Court', 'Outdoor gym fit for basketball, volleyball, and other Palarong Pambansa.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="617,25,611,99,727,108,729,33" alt="Gymnasium and Sports Center" href="#" 
+            onmouseover = "placeInfo('css/images/Gym.jpg','Gymnasium and Sports Center', 'Serves as the training ground for the student-athletes. Also, a place for other events.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="501,33,496,81,508,102,593,112,598,41" alt="Swimming Pool" href="#" 
+            onmouseover = "placeInfo('css/images/Pool.jpg','Swimming Pool', 'An olympic-sized pool that can handle swimming classes and student athlete activities.')" 
+            onmouseout = "removeSceneryBox()">  
+
+            <area shape="poly" coords="480,37,496,37,493,77,480,78" alt="Tahanan ng Alumni" href="#" 
+            onmouseover = "placeInfo('css/images/TahananngAlumni.jpg','Tahanan ng Alumni', 'Showcases the achievements of the PUP alumni in their respective field.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="453,11,475,12,470,131,448,131" alt="Physical Education Building" href="#" 
+            onmouseover = "placeInfo('css/images/PEBuilding.png','Physical Education Building', 'This is where the College of Human Kinetics is located.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="circle" coords="523,208,20" alt="Mabini Monument and PUP Obelisk" href="#" 
+            onmouseover = "placeInfo('css/images/Obelisk.jpg','Mabini Monument and PUP Obelisk', 'Depicts the strength of the Polytechnic University of the Philippines as an institution of higher learning, promoting educational and moral aims.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="455,289,502,247,517,249,531,250,545,245,507,333,489,345,480,332,487,327,470,299,461,302" alt="Freedom Park" href="#" 
+            onmouseover = "placeInfo('css/images/FreedomPark.jpg','Freedom Park', 'This is where the flag ceremony happens.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="570,248,552,271,550,286,539,305,560,318,571,301,582,291,599,267" alt="Apolinario Mabini Shrine" href="#" 
+            onmouseover = "placeInfo('css/images/ApolinarioMabini.webp','Apolinario Mabini Shrine', 'The residence of Filipino military leader, Apolinario Mabini, who figured in the Philippine Revolution.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="600,334,587,351,592,355,589,359,595,363,609,343,613,346,628,327,629,320,635,302,623,299,609,
+            318,604,315,595,326" alt="Grandstand" href="#" 
+            onmouseover = "placeInfo('css/images/Grandstand.webp','Grandstand', 'Area that offers spectators the best view of the track and football oval.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="585,422,683,287,696,277,713,271,730,267,753,268,771,277,792,294,805,323,806,350,798,369,700,
+            504,682,518,652,525,625,521,599,501,580,473,580,448" alt="Track and Football Oval" href="#" 
+            onmouseover = "placeInfo('css/images/Oval.jpg','Track and Football Oval', 'Field that can serve as softball, soccer, and football fields for students.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="451,192,465,190,466,228,451,227" alt="Centennial Monuent" href="#" 
+            onmouseover = "placeInfo('css/images/CentennialMonument.jpg','Centennial Monument', 'ajgfjasfjagf')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="323,269,333,262,344,262,358,258,355,242,355,219,367,207,383,207,395,199,398,182,398,164,404,
+            146,419,143,431,152,435,164,431,179,419,189,414,195,411,205,400,235,371,261,362,264,352,268,339,270,325,272" alt="Lagoon" href="#" 
+            onmouseover = "placeInfo('css/images/Lagoon.webp','Lagoon', 'It is a favorite place of the students to hangout during break time. Also offers a variety of food to eat.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="327,280,348,274,366,274,372,285,380,304,364,309,344,305,333,293" alt="Ampitheater" href="#" 
+            onmouseover = "placeInfo('css/images/Ampi.jpg','Ampitheater', 'A place where other events in the university are usually held.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="285,22,325,9,350,77,418,57,431,97,364,122,388,189,350,205" alt="N. Aquino Library and LRC" href="#" 
+            onmouseover = "placeInfo('css/images/Library.jpg','N. Aquino Library and LRC', 'The library system of the university providing services to the PUP System. This is also where the Bulwagan ng Balagtas is located.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="circle" coords="280,64,13" alt="R.C. Overhead Tank" href="#" 
+            onmouseover = "placeInfo('css/images/WaterTank.jpg','R.C. Overhead Tank', 'This provides water to the university. They say that this is the largest thumb tacks (because of the shape) but this is a water tank.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="163,16,236,56,228,69,229,87,224,99,253,134,248,146,268,183,261,197,130,120,138,107,127,77,135,
+            63,142,49,150,39,155,28" alt="Laboratory High School" href="#" 
+            onmouseover = "placeInfo('css/images/LabHigh.jpg','Laboratory High School', 'This is where the High School Students are located. It is a small parcel of land and is composed of four buildings.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="149,185,167,154,267,210,248,241" alt="Charlie Del Rosario Hall" href="#" 
+            onmouseover = "placeInfo('css/images/Charlie.jpg','Charlie del Rosario Building', 'A building dedicated to Charlie del Rosario, a Filipino Desaparecido. This is where the Office of the Student Regeant is located.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="202,253,214,235,241,247,229,266" alt="Student Canteen" href="#" 
+            onmouseover = "placeInfo('css/images/Canteen.jpg','Student Canteen', 'A place where students can eat and standby during break time.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="174,276,181,280,179,288,189,292,194,286,217,301,230,278,189,253" alt="University Canteen and Sampaguita Building" href="#" 
+            onmouseover = "placeInfo('css/images/SampaguitaBldg.webp','University Canteen and Sampaguita Building', 'The main canteen of the university. This is where to find delicious foods and snacks while inside the campus.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="circle" coords="356,383,26" alt="Dome" href="#" 
+            onmouseover = "placeInfo('css/images/Dome.png','Dome', 'A circular pathway connecting the six floors and four wings of the main building.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="228,341,233,333,226,326,244,298,252,302,256,296,350,347,320,395" alt="West Wing" href="#" 
+            onmouseover = "placeInfo('css/images/WestWing.jpg','West Wing', 'One of the wings of the main building. This is where the Office of Scholarship and Financial and Assistance is located.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="366,348,457,294,462,302,470,298,489,326,478,330,483,341,395,396" alt="North Wing" href="#" 
+            onmouseover = "placeInfo('css/images/NorthWing.webp','North Wing', 'A section of the main academic building. It is still under renovation.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="328,412,386,412,386,514,376,515,376,525,343,525,343,515,331,515" alt="East Wing" href="#" 
+            onmouseover = "placeInfo('css/images/EastWing.jpg','East Wing', 'A part of the main building where the University Clinic and Admission Services are located.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="214,389,224,403,220,409,271,491,272,490,271,491,281,503,324,479,317,466,319,466,323,
+            464,301,428,328,411,317,397,289,411,269,376,258,365" alt="South Wing" href="#" 
+            onmouseover = "placeInfo('css/images/SouthWing.jpg','South Wing', 'This is where the Computer Laboratories are located, as well as the Executive Offices and the Claro M. Recto Hall.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="circle" coords="471,451,59" alt="Interfaith Chapel" href="#" 
+            onmouseover = "placeInfo('css/images/Chapel.jpg','Interfaith Chapel', 'A sacred space designed to provide a place for people of all faiths and beliefs to come together.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="794,115,816,115,817,168,794,166" alt="Westgate" href="#" 
+            onmouseover = "placeInfo('css/images/Westgate.png','West Gate', 'An entrance near the PUP Gymnasium and Sports Center.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="236,521,242,518,238,509,249,508,261,532,249,537,238,535" alt="Ferry Station" href="#" 
+            onmouseover = "placeInfo('css/images/FerryStation.jpg','PUP Ferry Station', 'A station of the only water-based transportation in Metro Manila that cruises the Pasig River.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly" coords="107,136,114,132,193,379,186,381" alt="Linear Park" href="#" 
+            onmouseover = "placeInfo('css/images/LinearPark.jpg', 'Linear Park', 'A place located along the banks of the Pasig River for students, faculty, and staff to relax, study, or simply enjoy the outdoors.')" 
+            onmouseout = "removeSceneryBox()">
+
+            <area shape="poly"  coords="0,0,31,1,86,83,117,179,153,297,185,397,241,543,-1,542" alt="Pasig River" href="#" 
+            onmouseover = "placeInfo('css/images/PasigRiver.jpg','Pasig River', 'It runs through the heart of Manila and flows from Laguna de Bay to Manila Bay. The river was a major source of water, food and livelihood.')" 
+            onmouseout = "removeSceneryBox()">
+        </map>
+        <span id="place-display"></span>
+
+        <div class="footer-content">
+            <p class="footer">&copy; 2024 PUP Kiosk. All rights reserved.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
